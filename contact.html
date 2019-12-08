@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="css/min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <style>
+    H3{
+       Text-align:center
+    }
+    H2{
+       Color:white
+    }
+  </style>
+
+</head>
+ <div class="container">
+    <ul id="gn-menu" class="gn-menu-main">
+       <li><span></span><a href="index.html" class="index">首页</a></li>
+       <li><span></span><a href="info.html" class="info">基本信息</a></li>
+       <li><span></span><a href="home.html" class="home">我的家乡</a></li>
+       <li><span></span><a href="works.html" class="works">部分作品</a></li>
+       <li><span></span><a href="contact.html" class="contact">与我联系</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+                            
+    </ul>
+
+  </div>
+  <!-- /container -->
+
+<br>
+<br>
+<h3>TIPS：别当真，并没有真正的发送程序！</h3>
+
+  <section id="contact" name="contact"></section>
+  <div id="footerwrap">
+    <div class="container">
+      <div class="col-lg-5">
+        <h2>Address</h2>
+        <p>
+          中国矿业大学<br>大学路1号<br/>徐州，江苏<br/> 221116
+        </p>
+      </div>
+
+      <div class="col-lg-7">
+        <h2>有什么想告诉我的？</h2>
+        <br>
+
+        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Your Email</label>
+            <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+            <div class="validate"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Your Message</label>
+            <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+            <div class="validate"></div>
+          </div>
+
+          <div class="loading"></div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+
+          <div class="form-send">
+            <button type="submit" class="btn btn-large">Send Message</button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>Copyright &copy; 这东西有Copyright吗，装模作样做一个吧</p>
+      <div class="credits">
+       
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- JavaScript Libraries -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/gnmenu.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
